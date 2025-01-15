@@ -1,0 +1,117 @@
+ <html>
+    <head>
+        <title>
+            LEVAZE BOOK STORE
+        </title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="shop.script"></script>
+    </head>
+    <body>
+    <header>
+    <div class="logo">
+    <img src="logo.png" alt="Levaze store">    
+    </div>
+    <nav>
+        <ul>
+            <li><a href="shop.html">Home</a></li>
+            <li><a href="shopping.html">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="account.html">Accont</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+            
+            </nav>
+            <div class="bag_add">
+                <img src="bag.png.svg" alt="Levaze store">
+                <h1 id="cart-summary"></h1>    
+            </div>
+            </header>
+            
+            <input type="text" id="search" placeholder="search product">
+           
+            <h1> WELCOME TO LEVAZE STORE</h1>
+            <div class="center">
+           <button  class="btu" onclick="document.location='shopping.html'"> shop now </a></button>
+        </div>
+        <div id="line">
+
+        </div>
+        <div class="text"
+        >
+        <h3>Now Trending 🔥 </h3>
+        </div>
+        <div class="main">
+           
+            <div class="box1">
+                <img class="img-book" src="book1.png" alt="product1">
+                <h3>Think like a monk</h3>
+                <p class="price">₹499</p>
+                <button class="add-to-cart" onclick="cartQuantity=cartQuantity +1;
+                document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+                ">Add to Cart </button>
+                </div>
+                <div class="box1">
+                    <img class="img-book" src="book2.png" alt="product1">
+                    <h3>Rich dad poor dad</h3>
+                    <p class="price">₹499</p>
+                    <button class="add-to-cart"onclick="cartQuantity=cartQuantity +1;
+                    document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+                    ">Add to Cart</button>
+                    </div>
+                    <div class="box1">
+                        <img class="img-book" src="book3.png" alt="product1">
+                        <h3>Bhagavad gita</h3>
+                        <p class="price">₹499</p>
+                        <button class="add-to-cart"onclick="cartQuantity=cartQuantity +1;
+                        document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+                        ">Add to Cart</button>
+                        </div>
+            
+            <div class="box2">
+                <img class="img-book" src="book4.png" alt="product1">
+                <h3> A Fantastic Future</h3>
+                <p class="price">₹499</p>
+                <button class="add-to-cart"onclick="cartQuantity=cartQuantity +1;
+                document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+                ">Add to Cart</button>
+                </div>
+            
+            <div class="box3">
+                <img class="img-book"src="book5.png" alt="product1">
+                <h3 > The Age Of AI</h3>
+                <p class="price">₹499</p>
+                <button class="add-to-cart"onclick="cartQuantity=cartQuantity +1;
+                document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+                ">Add to Cart</button>
+                </div>
+            </div>
+        <div class="footer">
+
+            <fot>
+                <a href="#">About Us</a>
+                <a href="#">contact Us</a>
+                <a href="#">FAQ</a>
+                </fot>
+                <div class="connect">
+            
+                <a href="#"><img src="twitter.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/levaze_digital/"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://in.linkedin.com/company/levaze-digital"><img src="linkdine.png" alt="Linkedin"></a>
+               
+               </div>
+                <h4> © 2024 Shopping Store. All rights reserved.</h4>
+                
+
+
+        </div>
+          
+            </body>
+    <script>
+        let cartQuantity=0;
+        document.querySelector('#cart-summary').innerText=` ${cartQuantity} `;
+
+        </script>
+</html>
+
+

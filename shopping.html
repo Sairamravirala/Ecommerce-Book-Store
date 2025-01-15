@@ -1,0 +1,331 @@
+<html>
+<head>
+<title>Shopping Page</title>
+</head>
+<style>
+    body{
+        background-color:rgb(134, 113, 113);
+    }
+.container
+{
+   margin:20px;
+   justify-content:space-between;
+     box-shadow:5px 5px 5px #999999;
+     width:259px;
+     height:380px;
+     background-color: #ccc;
+     position:relative;
+    
+}
+.box
+{
+   margin:20px;
+    position:relative;
+    bottom:10px;
+     box-shadow:5px 5px 5px #999999;
+     width:230px;
+     height:250px;
+     background-color:lightgrey;
+}
+
+.flex
+{
+display:inline-flex;
+}
+.text
+{
+text-align:center;
+}
+.nav-bar{
+    background-color: antiquewhite;
+height:63px;
+}
+.menu{ display:flex; }
+.menu ul li{ display:inline-block; }
+.menu ul li a{
+padding:22px;
+line-height:30px;
+text-decoration:none;
+color:black;
+}
+.menu ul li a:hover{
+background:seagreen;
+}
+.search-box{
+float:right;
+display:flex;
+margin:20px 25px;
+position:relative;
+bottom:70px;
+}
+.tbox{
+
+                padding: 6px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                appearance: none;
+                border-radius: 4px;
+                width:300px;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                :focus{
+                    color: #212529;
+                    background-color: #fff;
+                    border-color: #86b7fe;
+                    outline: 0;
+                    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+                }
+                }
+.btn{
+
+                display: inline-block;
+                outline: 0;
+                cursor: pointer;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+                background: #FFD814;
+                border: 1px solid #FCD200;
+                font-size: 11px;
+                height: 40px;
+                padding: 0 6px;
+                text-align: center;
+                font-weight: 500;
+                color: #0F1111;
+                :hover{
+                    background: #F7CA00;
+                    border-color: #F2C200;
+                    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+                }
+                }
+.add{
+
+                display: inline-block;
+                outline: 0;
+                text-align: center;
+                cursor: pointer;
+                height: 30px;
+                width:100px;
+                position:relative;
+                bottom:13px;
+                padding: 0 13px;
+                color: #fff;
+                vertical-align: top;
+                border-radius: 3px;
+                border: 1px solid transparent;
+                transition: all .3s ease;
+                background: #cc4d29;
+                border-color: #cc4d29;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 16px;
+                font-size: 11px;
+                :hover {
+                    background: #e4461b;
+                    border-color: #e4461b;
+                }
+                
+
+}
+</style>
+<body>
+<div class="nav-bar">
+<div class="menu">
+    <ul>
+        <li><a href="shop.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<div class="search-box">
+<input type="text"class="tbox"placeholder="Type to search..."/>
+<button class="btn">SEARCH</button>
+</div>
+</div>
+<div class="flex">
+<div class="container">
+<div class="box"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/4/c4894c69788195163205_1.jpg?rnd=20200526195200&tr=w-512"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+    <div class="box"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/4/c4894c69788195163205_1.jpg?rnd=20200526195200&tr=w-512"height="250"width="233"></div>
+    <div class="text"><p>XYZ</p><p>$500</p>
+    <button class="add">BUY</button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="box"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/4/c4894c69788195163205_1.jpg?rnd=20200526195200&tr=w-512"height="250"width="233"></div>
+        <div class="text"><p>XYZ</p><p>$500</p>
+        <button class="add">BUY</button>
+        </div>
+        </div>
+<div class="container">
+<div class="box"><img src="https://images.squarespace-cdn.com/content/v1/5493706de4b0ecaa4047b871/1d6ebd3f-333f-4a58-830f-9d834d6d3956/When+Do+Hippos+Play+Cover+Small+Thumbnail.jpeg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://www.maplepress.co.in/cdn/shop/products/9789391924461_700x700.jpg?v=1637739697"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://ping.batch.co.uk/blcover/l/9780241555972.jpg?s=0-l-0129983/000-jAh8%2F%2BAowCdR17btKAexEJPxs44%3D"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://media.schoolreadinglist.co.uk/romans/9780141308951.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+</div>
+<div class="flex">
+<div class="container">
+<div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa26jQcCa4Qy6kOKbQ6IoWRSlQQWxbiAzVShMouzO5ZHQqBoX_C7A9w7PRTnvssyZ2CqU&usqp=CAU"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+    <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa26jQcCa4Qy6kOKbQ6IoWRSlQQWxbiAzVShMouzO5ZHQqBoX_C7A9w7PRTnvssyZ2CqU&usqp=CAU"height="250"width="233"></div>
+    <div class="text"><p>XYZ</p><p>$500</p>
+    <button class="add">BUY</button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa26jQcCa4Qy6kOKbQ6IoWRSlQQWxbiAzVShMouzO5ZHQqBoX_C7A9w7PRTnvssyZ2CqU&usqp=CAU"height="250"width="233"></div>
+        <div class="text"><p>XYZ</p><p>$500</p>
+        <button class="add">BUY</button>
+        </div>
+        </div>
+<div class="container">
+<div class="box"><img src="https://m.media-amazon.com/images/I/719w4H7M9HL._AC_UF894,1000_QL80_.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://rukminim2.flixcart.com/image/850/1000/jfoac280/book/8/1/1/ruskin-bond-box-set-box-1-6-books-inside-original-imaf42hznpuyr7c6.jpeg?q=90&crop=false"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://cdn.shopify.com/s/files/1/2081/8163/files/005-SUNNY-MEADOWS-WOODLAND-SCHOOL-th.jpg?v=1589846879"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://rukminim2.flixcart.com/image/850/1000/kzfvzww0/book/b/q/5/short-stories-in-english-for-beginners-original-imagbgbphchqga4z.jpeg?q=20&crop=false"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+</div>
+
+<div class="flex">
+<div class="container">
+<div class="box"><img src="https://m.media-amazon.com/images/I/510A9NYCAGL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://images.booksense.com/images/968/539/9780262539968.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://m.media-amazon.com/images/I/61WX7hEUFtL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+    <div class="box"><img src="https://m.media-amazon.com/images/I/61WX7hEUFtL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+    <div class="text"><p>XYZ</p><p>$500</p>
+    <button class="add">BUY</button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="box"><img src="https://m.media-amazon.com/images/I/61WX7hEUFtL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+        <div class="text"><p>XYZ</p><p>$500</p>
+        <button class="add">BUY</button>
+        </div>
+        </div>
+<div class="container">
+<div class="box"><img src="https://rowman.com/L/14/758/9781475870664.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://cdn10.bigcommerce.com/s-g9n04qy/products/2048/images/2249/410KnQoaY-L._SL1200___86228.1429895162.500.500.jpg?c=2"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+</div>
+
+
+<div class="flex">
+<div class="container">
+<div class="box"><img src="https://m.media-amazon.com/images/I/71+NgrKrPAL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+    <div class="box"><img src="https://m.media-amazon.com/images/I/61WX7hEUFtL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+    <div class="text"><p>XYZ</p><p>$500</p>
+    <button class="add">BUY</button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="box"><img src="https://m.media-amazon.com/images/I/61WX7hEUFtL._AC_UF1000,1000_QL80_.jpg"height="250"width="233"></div>
+        <div class="text"><p>XYZ</p><p>$500</p>
+        <button class="add">BUY</button>
+        </div>
+        </div>
+<div class="container">
+<div class="box"><img src="https://books.disney.com/content/uploads/2014/04/X-Men-An-Origin-Story-audio.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://i.ebayimg.com/images/g/GSgAAOSwGzRkzmcn/s-l1600.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781481409209/story-thieves-9781481409209_hr.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+<div class="container">
+<div class="box"><img src="https://static-01.daraz.com.np/p/2cabb0ffd21ccae0003d1879807ef723.jpg"height="250"width="233"></div>
+<div class="text"><p>XYZ</p><p>$500</p>
+<button class="add">BUY</button>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
